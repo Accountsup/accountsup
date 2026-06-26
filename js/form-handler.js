@@ -7,7 +7,7 @@
  */
 
 // REPLACE THIS with your deployed Google Apps Script Web App URL!
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwGkvuDPXNbgZ1HqU9fqnRluEr9GYEAxKm0-rwd1WCgb5HPMWUc035CrU0iGxiid-xU/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwBOdJ9MR0dTkKPBPUgYT7Pb5-y_CtbyjvONpZKMh3rAai9IXPjYYgs5qMU6XH9Y1UF/exec";
 
 /**
  * Submit form data to Google Apps Script Web App using fetch and async/await.
