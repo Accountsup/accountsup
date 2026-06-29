@@ -188,7 +188,7 @@
   function injectLogo() {
     var logos = document.querySelectorAll('.nav-logo');
     var base = window.location.pathname.replace(/\/[^\/]*$/, '/');
-    var logoSrc = base + 'assets/logo.png';
+    var logoSrc = base + 'assets/logo.png?v=2';
     logos.forEach(function(el) {
       el.classList.add('nav-logo-badge');
       
