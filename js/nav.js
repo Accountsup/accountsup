@@ -186,23 +186,6 @@
     }, 4000);
   }
 
-  function initThemeListener() {
-    var mq = window.matchMedia('(prefers-color-scheme: light)');
-    function applyTheme(e) {
-      if (e.matches) {
-        document.body.classList.add('light-theme');
-      } else {
-        document.body.classList.remove('light-theme');
-      }
-    }
-    if (mq.addEventListener) {
-      mq.addEventListener('change', applyTheme);
-    } else if (mq.addListener) {
-      mq.addListener(applyTheme);
-    }
-    applyTheme(mq);
-  }
-
   function injectLogo() {
     var logos = document.querySelectorAll('.nav-logo');
     var base = window.location.pathname.replace(/\/[^\/]*$/, '/');
@@ -234,7 +217,6 @@
     initCounters();
     initSmoothScroll();
     injectWhatsApp();
-    initThemeListener();
 
     var body = document.body;
     var clearAnimation = function (e) {

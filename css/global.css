@@ -816,66 +816,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 #theme-toggle:hover #theme-toggle-knob { background-color: var(--white); }
 
-body.light-theme #theme-toggle { background: rgba(0, 0, 0, 0.04); border-color: rgba(0, 0, 0, 0.1); }
-body.light-theme #theme-toggle-knob { transform: translateX(20px); background: var(--navy-800); }
-body.light-theme #theme-toggle-knob svg.icon-moon { display: none; }
-body.light-theme #theme-toggle-knob svg.icon-sun { display: flex; }
-#theme-toggle-knob svg.icon-sun { display: none; }
-#theme-toggle-knob svg.icon-moon { display: flex; }
-
-/* ===== LIGHT THEME OVERRIDES (Polished) ===== */
-body.light-theme {
-  background: #f8fafc;
-  color: #334155;
-  --navy-950: #f1f5f9;
-  --navy-900: #f8fafc;
-  --navy-800: #ffffff;
-  --navy-700: #e2e8f0;
-  --navy-600: #cbd5e1;
-  --slate-soft: #64748b;
-  --slate-mid: #475569;
-  --slate-light: #0f172a;
-  --white: #0f172a;
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
-  --shadow-card-hover: 0 16px 36px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.03);
-}
-body.light-theme #main-nav {
-  background: rgba(255, 255, 255, 0.8);
-  border-bottom-color: rgba(0, 0, 0, 0.06);
-}
-body.light-theme #main-nav.scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  border-bottom-color: rgba(0, 0, 0, 0.08);
-}
-body.light-theme .nav-link { color: var(--slate-soft); }
-body.light-theme .nav-link:hover { color: var(--slate-light); }
-body.light-theme .nav-link.active { color: var(--slate-light); }
-body.light-theme .btn-outline { border-color: rgba(0, 0, 0, 0.15); color: var(--navy-950); }
-body.light-theme .btn-outline:hover { background: rgba(0, 0, 0, 0.03); border-color: rgba(0, 0, 0, 0.25); }
-body.light-theme .btn-outline-sm { border-color: rgba(0, 0, 0, 0.15); color: var(--navy-950); }
-body.light-theme .btn-outline-sm:hover { background: rgba(0, 0, 0, 0.03); }
-body.light-theme .page-hero { background: radial-gradient(circle at 50% 10%, #e2e8f0 0%, #f8fafc 70%); }
-body.light-theme .page-hero h1 { color: var(--slate-light); }
-body.light-theme .card { border-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .card:hover { border-color: rgba(226, 184, 66, 0.4); }
-body.light-theme .value-card { border-color: rgba(0, 0, 0, 0.04); }
-body.light-theme .value-stack .value-card { background: #ffffff; }
-body.light-theme .stats-bar { background: #ffffff; border-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .stat-item + .stat-item { border-left-color: rgba(0, 0, 0, 0.06); }
-body.light-theme .cta-banner { background: radial-gradient(circle at 10% 10%, #f1f5f9 0%, #ffffff 80%); border-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .cta-banner h2 { color: var(--slate-light); }
-body.light-theme .form-container { background: #ffffff; border-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .form-input, body.light-theme .form-select, body.light-theme .form-textarea { background: #ffffff; border-color: rgba(0, 0, 0, 0.1); color: var(--slate-light); }
-body.light-theme .form-input:focus, body.light-theme .form-select:focus, body.light-theme .form-textarea:focus { border-color: var(--gold); }
-body.light-theme .form-select option { background: #ffffff; color: var(--slate-light); }
-body.light-theme #main-footer { background: #f1f5f9; border-top-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .footer-grid { border-bottom-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .footer-social { background: #ffffff; border-color: rgba(0, 0, 0, 0.05); }
-body.light-theme .footer-social:hover { background: rgba(0, 0, 0, 0.02); color: var(--gold-dark); border-color: rgba(0, 0, 0, 0.1); }
-body.light-theme .footer-availability { background: #ffffff; border-color: rgba(0, 0, 0, 0.04); }
-body.light-theme .compliance-badge { background: #ffffff; border-color: rgba(0, 0, 0, 0.04); }
-body.light-theme .compliance-badge:hover { border-color: rgba(226, 184, 66, 0.3); }
-
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -897,6 +837,5 @@ body.light-theme .compliance-badge:hover { border-color: rgba(226, 184, 66, 0.3)
   .cta-banner { padding: 36px 24px; }
   .stats-bar { padding: 24px 0; }
   .stat-item { border-left: none !important; border-bottom: 1px solid rgba(255, 255, 255, 0.05); padding: 16px 0; }
-  body.light-theme .stat-item { border-bottom-color: rgba(0, 0, 0, 0.05); }
   .stat-item:last-child { border-bottom: none; }
 }
