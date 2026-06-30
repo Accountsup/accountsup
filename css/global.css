@@ -948,18 +948,22 @@ body.light-theme .cta-banner h2 { color: #1a2744; }
 body.light-theme .cta-banner p { color: #4a5a74; }
 
 body.light-theme .btn-outline {
-  border-color: rgba(26, 39, 68, 0.25);
-  color: var(--white);
+  border-color: rgba(180, 140, 20, 0.6);
+  color: var(--gold-dark);
+  background: transparent;
 }
 body.light-theme .btn-outline:hover {
-  background: rgba(26, 39, 68, 0.05);
+  background: rgba(180, 140, 20, 0.08);
+  border-color: var(--gold-dark);
 }
 body.light-theme .btn-outline-sm {
-  border-color: rgba(26, 39, 68, 0.2);
-  color: var(--white);
+  border-color: rgba(180, 140, 20, 0.6);
+  color: var(--gold-dark);
+  background: transparent;
 }
 body.light-theme .btn-outline-sm:hover {
-  background: rgba(26, 39, 68, 0.05);
+  background: rgba(180, 140, 20, 0.08);
+  border-color: var(--gold-dark);
 }
 
 body.light-theme #main-footer {
