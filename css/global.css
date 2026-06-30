@@ -834,7 +834,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .form-row { grid-template-columns: 1fr; gap: 0; }
   .form-container { padding: 32px 20px; }
-  .cta-banner { padding: 36px 24px; }
+  .cta-banner { padding: 36px 24px; flex-direction: column; text-align: center; }
+  .cta-actions { flex-direction: column; width: 100%; gap: 12px; }
+  .cta-actions .btn-gold, .cta-actions .btn-outline { width: 100%; text-align: center; justify-content: center; }
   .stats-bar { padding: 24px 0; }
   .stat-item { border-left: none !important; border-bottom: 1px solid rgba(255, 255, 255, 0.05); padding: 16px 0; }
   .stat-item:last-child { border-bottom: none; }
