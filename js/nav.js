@@ -262,6 +262,5 @@
     initCounters: initCounters
   };
 })();
-Clicking...Pressing key...Stopping...
 
 Stop Agent
