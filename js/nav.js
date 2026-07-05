@@ -262,5 +262,3 @@
     initCounters: initCounters
   };
 })();
-
-Stop Agent
